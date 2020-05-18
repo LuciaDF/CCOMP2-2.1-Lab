@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */; };
+		CFDB6CDE246F004200D1AD25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFDB6CDD246F004200D1AD25 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CFE4CD552446042200CEEE4E /* CopyFiles */ = {
+		CFDB6CD8246F004200D1AD25 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CFE4CD572446042200CEEE4E /* ejercicios2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicios2; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ejercicios2-14-04-20.cpp"; sourceTree = "<group>"; };
+		CFDB6CDA246F004200D1AD25 /* mingw.h */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mingw.h; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB6CDD246F004200D1AD25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFE4CD542446042200CEEE4E /* Frameworks */ = {
+		CFDB6CD7246F004200D1AD25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFE4CD4E2446042200CEEE4E = {
+		CFDB6CD1246F004200D1AD25 = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD592446042200CEEE4E /* ejercicios2 */,
-				CFE4CD582446042200CEEE4E /* Products */,
+				CFDB6CDC246F004200D1AD25 /* mingw.h */,
+				CFDB6CDB246F004200D1AD25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFE4CD582446042200CEEE4E /* Products */ = {
+		CFDB6CDB246F004200D1AD25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD572446042200CEEE4E /* ejercicios2 */,
+				CFDB6CDA246F004200D1AD25 /* mingw.h */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE4CD592446042200CEEE4E /* ejercicios2 */ = {
+		CFDB6CDC246F004200D1AD25 /* mingw.h */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */,
+				CFDB6CDD246F004200D1AD25 /* main.cpp */,
 			);
-			path = ejercicios2;
+			path = mingw.h;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE4CD562446042200CEEE4E /* ejercicios2 */ = {
+		CFDB6CD9246F004200D1AD25 /* mingw.h */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */;
+			buildConfigurationList = CFDB6CE1246F004200D1AD25 /* Build configuration list for PBXNativeTarget "mingw.h" */;
 			buildPhases = (
-				CFE4CD532446042200CEEE4E /* Sources */,
-				CFE4CD542446042200CEEE4E /* Frameworks */,
-				CFE4CD552446042200CEEE4E /* CopyFiles */,
+				CFDB6CD6246F004200D1AD25 /* Sources */,
+				CFDB6CD7246F004200D1AD25 /* Frameworks */,
+				CFDB6CD8246F004200D1AD25 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ejercicios2;
-			productName = ejercicios2;
-			productReference = CFE4CD572446042200CEEE4E /* ejercicios2 */;
+			name = mingw.h;
+			productName = mingw.h;
+			productReference = CFDB6CDA246F004200D1AD25 /* mingw.h */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFE4CD4F2446042200CEEE4E /* Project object */ = {
+		CFDB6CD2246F004200D1AD25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "lucia Dueñas";
 				TargetAttributes = {
-					CFE4CD562446042200CEEE4E = {
+					CFDB6CD9246F004200D1AD25 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */;
+			buildConfigurationList = CFDB6CD5246F004200D1AD25 /* Build configuration list for PBXProject "mingw.h" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = CFE4CD4E2446042200CEEE4E;
-			productRefGroup = CFE4CD582446042200CEEE4E /* Products */;
+			mainGroup = CFDB6CD1246F004200D1AD25;
+			productRefGroup = CFDB6CDB246F004200D1AD25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE4CD562446042200CEEE4E /* ejercicios2 */,
+				CFDB6CD9246F004200D1AD25 /* mingw.h */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFE4CD532446042200CEEE4E /* Sources */ = {
+		CFDB6CD6246F004200D1AD25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */,
+				CFDB6CDE246F004200D1AD25 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CFE4CD5C2446042200CEEE4E /* Debug */ = {
+		CFDB6CDF246F004200D1AD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD5D2446042200CEEE4E /* Release */ = {
+		CFDB6CE0246F004200D1AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		CFE4CD5F2446042200CEEE4E /* Debug */ = {
+		CFDB6CE2246F004200D1AD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD602446042200CEEE4E /* Release */ = {
+		CFDB6CE3246F004200D1AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */ = {
+		CFDB6CD5246F004200D1AD25 /* Build configuration list for PBXProject "mingw.h" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5C2446042200CEEE4E /* Debug */,
-				CFE4CD5D2446042200CEEE4E /* Release */,
+				CFDB6CDF246F004200D1AD25 /* Debug */,
+				CFDB6CE0246F004200D1AD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */ = {
+		CFDB6CE1246F004200D1AD25 /* Build configuration list for PBXNativeTarget "mingw.h" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5F2446042200CEEE4E /* Debug */,
-				CFE4CD602446042200CEEE4E /* Release */,
+				CFDB6CE2246F004200D1AD25 /* Debug */,
+				CFDB6CE3246F004200D1AD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFE4CD4F2446042200CEEE4E /* Project object */;
+	rootObject = CFDB6CD2246F004200D1AD25 /* Project object */;
 }

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */; };
+		CF83FA832472A31600DBEF34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF83FA822472A31600DBEF34 /* main.cpp */; };
+		CF83FA8B2472A33900DBEF34 /* mylib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF83FA892472A33900DBEF34 /* mylib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CFE4CD552446042200CEEE4E /* CopyFiles */ = {
+		CF83FA7D2472A31600DBEF34 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CFE4CD572446042200CEEE4E /* ejercicios2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicios2; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ejercicios2-14-04-20.cpp"; sourceTree = "<group>"; };
+		CF83FA7F2472A31600DBEF34 /* Examen Parcial Práctico */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examen Parcial Práctico"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF83FA822472A31600DBEF34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF83FA892472A33900DBEF34 /* mylib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mylib.cpp; sourceTree = "<group>"; };
+		CF83FA8A2472A33900DBEF34 /* mylib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mylib.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFE4CD542446042200CEEE4E /* Frameworks */ = {
+		CF83FA7C2472A31600DBEF34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFE4CD4E2446042200CEEE4E = {
+		CF83FA762472A31600DBEF34 = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD592446042200CEEE4E /* ejercicios2 */,
-				CFE4CD582446042200CEEE4E /* Products */,
+				CF83FA812472A31600DBEF34 /* Examen Parcial Práctico */,
+				CF83FA802472A31600DBEF34 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFE4CD582446042200CEEE4E /* Products */ = {
+		CF83FA802472A31600DBEF34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD572446042200CEEE4E /* ejercicios2 */,
+				CF83FA7F2472A31600DBEF34 /* Examen Parcial Práctico */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE4CD592446042200CEEE4E /* ejercicios2 */ = {
+		CF83FA812472A31600DBEF34 /* Examen Parcial Práctico */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */,
+				CF83FA8A2472A33900DBEF34 /* mylib.hpp */,
+				CF83FA892472A33900DBEF34 /* mylib.cpp */,
+				CF83FA822472A31600DBEF34 /* main.cpp */,
 			);
-			path = ejercicios2;
+			path = "Examen Parcial Práctico";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE4CD562446042200CEEE4E /* ejercicios2 */ = {
+		CF83FA7E2472A31600DBEF34 /* Examen Parcial Práctico */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */;
+			buildConfigurationList = CF83FA862472A31600DBEF34 /* Build configuration list for PBXNativeTarget "Examen Parcial Práctico" */;
 			buildPhases = (
-				CFE4CD532446042200CEEE4E /* Sources */,
-				CFE4CD542446042200CEEE4E /* Frameworks */,
-				CFE4CD552446042200CEEE4E /* CopyFiles */,
+				CF83FA7B2472A31600DBEF34 /* Sources */,
+				CF83FA7C2472A31600DBEF34 /* Frameworks */,
+				CF83FA7D2472A31600DBEF34 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ejercicios2;
-			productName = ejercicios2;
-			productReference = CFE4CD572446042200CEEE4E /* ejercicios2 */;
+			name = "Examen Parcial Práctico";
+			productName = "Examen Parcial Práctico";
+			productReference = CF83FA7F2472A31600DBEF34 /* Examen Parcial Práctico */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFE4CD4F2446042200CEEE4E /* Project object */ = {
+		CF83FA772472A31600DBEF34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "lucia Dueñas";
 				TargetAttributes = {
-					CFE4CD562446042200CEEE4E = {
+					CF83FA7E2472A31600DBEF34 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */;
+			buildConfigurationList = CF83FA7A2472A31600DBEF34 /* Build configuration list for PBXProject "Examen Parcial Práctico" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CFE4CD4E2446042200CEEE4E;
-			productRefGroup = CFE4CD582446042200CEEE4E /* Products */;
+			mainGroup = CF83FA762472A31600DBEF34;
+			productRefGroup = CF83FA802472A31600DBEF34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE4CD562446042200CEEE4E /* ejercicios2 */,
+				CF83FA7E2472A31600DBEF34 /* Examen Parcial Práctico */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFE4CD532446042200CEEE4E /* Sources */ = {
+		CF83FA7B2472A31600DBEF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */,
+				CF83FA832472A31600DBEF34 /* main.cpp in Sources */,
+				CF83FA8B2472A33900DBEF34 /* mylib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CFE4CD5C2446042200CEEE4E /* Debug */ = {
+		CF83FA842472A31600DBEF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD5D2446042200CEEE4E /* Release */ = {
+		CF83FA852472A31600DBEF34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +241,7 @@
 			};
 			name = Release;
 		};
-		CFE4CD5F2446042200CEEE4E /* Debug */ = {
+		CF83FA872472A31600DBEF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD602446042200CEEE4E /* Release */ = {
+		CF83FA882472A31600DBEF34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */ = {
+		CF83FA7A2472A31600DBEF34 /* Build configuration list for PBXProject "Examen Parcial Práctico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5C2446042200CEEE4E /* Debug */,
-				CFE4CD5D2446042200CEEE4E /* Release */,
+				CF83FA842472A31600DBEF34 /* Debug */,
+				CF83FA852472A31600DBEF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */ = {
+		CF83FA862472A31600DBEF34 /* Build configuration list for PBXNativeTarget "Examen Parcial Práctico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5F2446042200CEEE4E /* Debug */,
-				CFE4CD602446042200CEEE4E /* Release */,
+				CF83FA872472A31600DBEF34 /* Debug */,
+				CF83FA882472A31600DBEF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFE4CD4F2446042200CEEE4E /* Project object */;
+	rootObject = CF83FA772472A31600DBEF34 /* Project object */;
 }

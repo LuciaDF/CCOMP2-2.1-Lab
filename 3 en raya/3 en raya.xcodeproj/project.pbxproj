@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */; };
+		CFDB6C9F246EC54A00D1AD25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFDB6C9E246EC54A00D1AD25 /* main.cpp */; };
+		CFDB6CA7246EC5BC00D1AD25 /* libraya.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFDB6CA5246EC5BC00D1AD25 /* libraya.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CFE4CD552446042200CEEE4E /* CopyFiles */ = {
+		CFDB6C99246EC54A00D1AD25 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CFE4CD572446042200CEEE4E /* ejercicios2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicios2; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ejercicios2-14-04-20.cpp"; sourceTree = "<group>"; };
+		CFDB6C9B246EC54A00D1AD25 /* 3 en raya */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3 en raya"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB6C9E246EC54A00D1AD25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CFDB6CA5246EC5BC00D1AD25 /* libraya.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libraya.cpp; sourceTree = "<group>"; };
+		CFDB6CA6246EC5BC00D1AD25 /* libraya.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = libraya.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFE4CD542446042200CEEE4E /* Frameworks */ = {
+		CFDB6C98246EC54A00D1AD25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFE4CD4E2446042200CEEE4E = {
+		CFDB6C92246EC54A00D1AD25 = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD592446042200CEEE4E /* ejercicios2 */,
-				CFE4CD582446042200CEEE4E /* Products */,
+				CFDB6C9D246EC54A00D1AD25 /* 3 en raya */,
+				CFDB6C9C246EC54A00D1AD25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFE4CD582446042200CEEE4E /* Products */ = {
+		CFDB6C9C246EC54A00D1AD25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD572446042200CEEE4E /* ejercicios2 */,
+				CFDB6C9B246EC54A00D1AD25 /* 3 en raya */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE4CD592446042200CEEE4E /* ejercicios2 */ = {
+		CFDB6C9D246EC54A00D1AD25 /* 3 en raya */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */,
+				CFDB6C9E246EC54A00D1AD25 /* main.cpp */,
+				CFDB6CA5246EC5BC00D1AD25 /* libraya.cpp */,
+				CFDB6CA6246EC5BC00D1AD25 /* libraya.hpp */,
 			);
-			path = ejercicios2;
+			path = "3 en raya";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE4CD562446042200CEEE4E /* ejercicios2 */ = {
+		CFDB6C9A246EC54A00D1AD25 /* 3 en raya */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */;
+			buildConfigurationList = CFDB6CA2246EC54A00D1AD25 /* Build configuration list for PBXNativeTarget "3 en raya" */;
 			buildPhases = (
-				CFE4CD532446042200CEEE4E /* Sources */,
-				CFE4CD542446042200CEEE4E /* Frameworks */,
-				CFE4CD552446042200CEEE4E /* CopyFiles */,
+				CFDB6C97246EC54A00D1AD25 /* Sources */,
+				CFDB6C98246EC54A00D1AD25 /* Frameworks */,
+				CFDB6C99246EC54A00D1AD25 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ejercicios2;
-			productName = ejercicios2;
-			productReference = CFE4CD572446042200CEEE4E /* ejercicios2 */;
+			name = "3 en raya";
+			productName = "3 en raya";
+			productReference = CFDB6C9B246EC54A00D1AD25 /* 3 en raya */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFE4CD4F2446042200CEEE4E /* Project object */ = {
+		CFDB6C93246EC54A00D1AD25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "lucia Dueñas";
 				TargetAttributes = {
-					CFE4CD562446042200CEEE4E = {
+					CFDB6C9A246EC54A00D1AD25 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */;
+			buildConfigurationList = CFDB6C96246EC54A00D1AD25 /* Build configuration list for PBXProject "3 en raya" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CFE4CD4E2446042200CEEE4E;
-			productRefGroup = CFE4CD582446042200CEEE4E /* Products */;
+			mainGroup = CFDB6C92246EC54A00D1AD25;
+			productRefGroup = CFDB6C9C246EC54A00D1AD25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE4CD562446042200CEEE4E /* ejercicios2 */,
+				CFDB6C9A246EC54A00D1AD25 /* 3 en raya */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFE4CD532446042200CEEE4E /* Sources */ = {
+		CFDB6C97246EC54A00D1AD25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */,
+				CFDB6CA7246EC5BC00D1AD25 /* libraya.cpp in Sources */,
+				CFDB6C9F246EC54A00D1AD25 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CFE4CD5C2446042200CEEE4E /* Debug */ = {
+		CFDB6CA0246EC54A00D1AD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD5D2446042200CEEE4E /* Release */ = {
+		CFDB6CA1246EC54A00D1AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +241,7 @@
 			};
 			name = Release;
 		};
-		CFE4CD5F2446042200CEEE4E /* Debug */ = {
+		CFDB6CA3246EC54A00D1AD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD602446042200CEEE4E /* Release */ = {
+		CFDB6CA4246EC54A00D1AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */ = {
+		CFDB6C96246EC54A00D1AD25 /* Build configuration list for PBXProject "3 en raya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5C2446042200CEEE4E /* Debug */,
-				CFE4CD5D2446042200CEEE4E /* Release */,
+				CFDB6CA0246EC54A00D1AD25 /* Debug */,
+				CFDB6CA1246EC54A00D1AD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */ = {
+		CFDB6CA2246EC54A00D1AD25 /* Build configuration list for PBXNativeTarget "3 en raya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5F2446042200CEEE4E /* Debug */,
-				CFE4CD602446042200CEEE4E /* Release */,
+				CFDB6CA3246EC54A00D1AD25 /* Debug */,
+				CFDB6CA4246EC54A00D1AD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFE4CD4F2446042200CEEE4E /* Project object */;
+	rootObject = CFDB6C93246EC54A00D1AD25 /* Project object */;
 }

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */; };
+		CF83DFBC247241FE0030263F /* libcal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF83DFBA247241FE0030263F /* libcal.cpp */; };
+		CF8950A42449FEC30020859D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF8950A32449FEC30020859D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CFE4CD552446042200CEEE4E /* CopyFiles */ = {
+		CF89509E2449FEC30020859D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CFE4CD572446042200CEEE4E /* ejercicios2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicios2; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ejercicios2-14-04-20.cpp"; sourceTree = "<group>"; };
+		CF83DFBA247241FE0030263F /* libcal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libcal.cpp; sourceTree = "<group>"; };
+		CF83DFBB247241FE0030263F /* libcal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = libcal.hpp; sourceTree = "<group>"; };
+		CF8950A02449FEC30020859D /* Calculadora de Triangulo rectangulo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Calculadora de Triangulo rectangulo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8950A32449FEC30020859D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFE4CD542446042200CEEE4E /* Frameworks */ = {
+		CF89509D2449FEC30020859D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFE4CD4E2446042200CEEE4E = {
+		CF8950972449FEC30020859D = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD592446042200CEEE4E /* ejercicios2 */,
-				CFE4CD582446042200CEEE4E /* Products */,
+				CF8950A22449FEC30020859D /* Calculadora de Triangulo rectangulo */,
+				CF8950A12449FEC30020859D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFE4CD582446042200CEEE4E /* Products */ = {
+		CF8950A12449FEC30020859D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD572446042200CEEE4E /* ejercicios2 */,
+				CF8950A02449FEC30020859D /* Calculadora de Triangulo rectangulo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE4CD592446042200CEEE4E /* ejercicios2 */ = {
+		CF8950A22449FEC30020859D /* Calculadora de Triangulo rectangulo */ = {
 			isa = PBXGroup;
 			children = (
-				CFE4CD5A2446042200CEEE4E /* ejercicios2-14-04-20.cpp */,
+				CF8950A32449FEC30020859D /* main.cpp */,
+				CF83DFBB247241FE0030263F /* libcal.hpp */,
+				CF83DFBA247241FE0030263F /* libcal.cpp */,
 			);
-			path = ejercicios2;
+			path = "Calculadora de Triangulo rectangulo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE4CD562446042200CEEE4E /* ejercicios2 */ = {
+		CF89509F2449FEC30020859D /* Calculadora de Triangulo rectangulo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */;
+			buildConfigurationList = CF8950A72449FEC30020859D /* Build configuration list for PBXNativeTarget "Calculadora de Triangulo rectangulo" */;
 			buildPhases = (
-				CFE4CD532446042200CEEE4E /* Sources */,
-				CFE4CD542446042200CEEE4E /* Frameworks */,
-				CFE4CD552446042200CEEE4E /* CopyFiles */,
+				CF89509C2449FEC30020859D /* Sources */,
+				CF89509D2449FEC30020859D /* Frameworks */,
+				CF89509E2449FEC30020859D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ejercicios2;
-			productName = ejercicios2;
-			productReference = CFE4CD572446042200CEEE4E /* ejercicios2 */;
+			name = "Calculadora de Triangulo rectangulo";
+			productName = "Calculadora de Triangulo rectangulo";
+			productReference = CF8950A02449FEC30020859D /* Calculadora de Triangulo rectangulo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFE4CD4F2446042200CEEE4E /* Project object */ = {
+		CF8950982449FEC30020859D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "lucia Dueñas";
 				TargetAttributes = {
-					CFE4CD562446042200CEEE4E = {
+					CF89509F2449FEC30020859D = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */;
+			buildConfigurationList = CF89509B2449FEC30020859D /* Build configuration list for PBXProject "Calculadora de Triangulo rectangulo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CFE4CD4E2446042200CEEE4E;
-			productRefGroup = CFE4CD582446042200CEEE4E /* Products */;
+			mainGroup = CF8950972449FEC30020859D;
+			productRefGroup = CF8950A12449FEC30020859D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE4CD562446042200CEEE4E /* ejercicios2 */,
+				CF89509F2449FEC30020859D /* Calculadora de Triangulo rectangulo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFE4CD532446042200CEEE4E /* Sources */ = {
+		CF89509C2449FEC30020859D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE4CD5B2446042200CEEE4E /* ejercicios2-14-04-20.cpp in Sources */,
+				CF83DFBC247241FE0030263F /* libcal.cpp in Sources */,
+				CF8950A42449FEC30020859D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CFE4CD5C2446042200CEEE4E /* Debug */ = {
+		CF8950A52449FEC30020859D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD5D2446042200CEEE4E /* Release */ = {
+		CF8950A62449FEC30020859D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +241,7 @@
 			};
 			name = Release;
 		};
-		CFE4CD5F2446042200CEEE4E /* Debug */ = {
+		CF8950A82449FEC30020859D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		CFE4CD602446042200CEEE4E /* Release */ = {
+		CF8950A92449FEC30020859D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE4CD522446042200CEEE4E /* Build configuration list for PBXProject "ejercicios2" */ = {
+		CF89509B2449FEC30020859D /* Build configuration list for PBXProject "Calculadora de Triangulo rectangulo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5C2446042200CEEE4E /* Debug */,
-				CFE4CD5D2446042200CEEE4E /* Release */,
+				CF8950A52449FEC30020859D /* Debug */,
+				CF8950A62449FEC30020859D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE4CD5E2446042200CEEE4E /* Build configuration list for PBXNativeTarget "ejercicios2" */ = {
+		CF8950A72449FEC30020859D /* Build configuration list for PBXNativeTarget "Calculadora de Triangulo rectangulo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE4CD5F2446042200CEEE4E /* Debug */,
-				CFE4CD602446042200CEEE4E /* Release */,
+				CF8950A82449FEC30020859D /* Debug */,
+				CF8950A92449FEC30020859D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFE4CD4F2446042200CEEE4E /* Project object */;
+	rootObject = CF8950982449FEC30020859D /* Project object */;
 }
